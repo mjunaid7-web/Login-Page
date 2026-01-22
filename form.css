@@ -1,0 +1,158 @@
+ body{
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f2f5;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    form{
+      width: 400px;
+      padding: 40px;
+      background-color: #fff;
+      box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    .row{
+      display: flex;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+
+    .row label{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: 15px;       /* Facebook small text size */
+  font-weight: 600;       /* semi-bold */
+  color: #050505; 
+  width:65px ;
+ 
+    }
+
+    .row input{
+      flex: 1;
+      padding: 12px;
+      border: 1px solid #ccd0d5;
+      border-radius: 6px;
+      transition: all 0.2s ease;
+    }
+
+    /* FACEBOOK-STYLE INPUT FOCUS EFFECT */
+    .row input:focus{
+      outline: none;
+      border-color: #1877f2;
+      box-shadow: 0 0 0 2px rgba(24,119,242,0.3);
+    }
+
+    /* Placeholder color change on focus (optional) */
+    .row input:focus::placeholder{
+      color: rgb(148, 175, 226);
+    }
+
+    .btn{
+      display: flex;
+      justify-content: center;
+    }
+
+    /* FACEBOOK-STYLE BUTTON */
+    #button{
+      width: 100%;
+      padding: 15px;
+      color: white;
+      background-color: #1877f2;
+      font-weight: bold;
+      border-radius: 6px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    /* Hover effect for button */
+    #button:hover{
+      background-color: #166fe5;
+    }
+
+    /* Focus / click effect for button */
+    #button:focus,
+    #button:active{
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(24,119,242,0.6);}
+    
+
+      .divider{
+  width: 100%;              /* ⬅⬅ YE ZAROORI HAI */
+  height: 0.5px;
+  background-color: lightgray;
+  margin: 20px 0;
+}
+#create-btn{
+  background-color: #42b72a;   /* Facebook green */
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+/* ✅ YAHI FIX HAI */
+#create-btn:focus,
+#create-btn:active{
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(66,183,42,0.4);
+}
+ .button{
+    display: flex;
+    justify-content: center;
+ }
+ .forgot{
+  text-align: center;  /* ✅ content center ho jayega */
+  margin-top: 12px;
+}
+
+.forgot a{
+  color: #1877f2;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.forgot a:hover{
+  text-decoration: underline;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;  /* horizontal center of container */
+  align-items: center;      /* vertical center of page */
+  height: 100vh;            /* full height of viewport */
+  gap: 40px;                /* space between left and right panel */
+  fo
+}
+
+.left-panel {
+  width: 90%;
+}
+
+.right-panel {
+  width: 400px;
+}
+.container h1 {
+  color: #1877f2;          /* Facebook blue */
+  font-size: 50px;          /* bada heading size */
+  font-weight: 700;         /* bold */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  margin: 0 0 20px 0;       /* bottom spacing */
+}
+
+.container .fb-text {
+  font-size: 24px;           /* medium text size */
+  font-weight: 400;           /* normal weight */
+  line-height: 1.3;           /* spacing between lines */
+  color: #1c1e21;             /* dark grey text */
+  margin: 0;                  /* remove extra default margins */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
